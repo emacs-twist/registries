@@ -3,10 +3,10 @@
     melpa.url = "github:melpa/melpa";
     melpa.flake = false;
 
-    gnu-elpa.url = "git+https://git.savannah.gnu.org/git/emacs/elpa.git?ref=main";
+    gnu-elpa.url = "github:elpa-mirrors/elpa";
     gnu-elpa.flake = false;
 
-    nongnu-elpa.url = "git+https://git.savannah.gnu.org/git/emacs/nongnu.git?ref=main";
+    nongnu-elpa.url = "github:elpa-mirrors/nongnu";
     nongnu-elpa.flake = false;
   };
 
